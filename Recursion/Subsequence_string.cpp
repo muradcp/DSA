@@ -22,7 +22,10 @@ void fun(string s, string temp, ll ind)
 {
     if (ind == s.size()) // base case
     {
-        cout << temp << nl;
+        cout << temp;
+        if(temp.size()==0)
+                cout<<"{}";
+        cout<<nl;
         return;
     }
     /*
