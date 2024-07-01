@@ -11,8 +11,10 @@ using namespace std;
 vector<vector<ll>> ans;
 void helper(vector<ll> &v, ll target, ll i, ll csum, vector<ll> &temp)
 {
+        // boundary condition
     if (csum > target)
         return;
+        // base condition
     if (i == v.size())
     {
         if (csum == target)
@@ -21,9 +23,11 @@ void helper(vector<ll> &v, ll target, ll i, ll csum, vector<ll> &temp)
         }
         return;
     }
+// take 
     csum += v[i];
     temp.push_back(v[i]);
     helper(v, target, i, csum, temp);
+// not take 
     csum -= v[i];
     temp.pop_back();
     helper(v, target, i + 1, csum, temp);
