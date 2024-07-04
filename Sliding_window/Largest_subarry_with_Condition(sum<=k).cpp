@@ -1,4 +1,6 @@
 /*
+https://www.geeksforgeeks.org/longest-sub-array-sum-k/
+
     Input
         5 14
         2 5 9 7 10
