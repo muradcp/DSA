@@ -43,6 +43,8 @@ void brute()
             st.insert(arr[j]);
             if (st.size() <= k)
                 mxlen = max(mxlen, j - i + 1);
+            else 
+                break;
         }
     }
     cout << mxlen << nl;
