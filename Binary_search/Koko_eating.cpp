@@ -1,3 +1,17 @@
+/*
+        TC:  0(max(arr)*log(max(arr)))
+
+
+Input:
+        4 8
+        3 6 7 11
+
+Output:
+        4
+
+
+*/
+
 #include <bits/stdc++.h>
 #define nl '\n'
 #define ll long long
