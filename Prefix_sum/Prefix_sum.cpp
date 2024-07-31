@@ -6,9 +6,9 @@ Input:
         1 4
         2 5
 Output:
+        11
         12
         11
-        10
 
 Describe:
         arr------ 1   6   4    2    5     3
