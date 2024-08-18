@@ -64,7 +64,7 @@ void Using_hashing()
             // Check if there exists an element in the map which can be paired with form the sum
             if (mp.find(val) != mp.end())
             {
-                ans += mp[val];  //  how many times repetad
+                ans += mp[val];  //  Frequency
             }
         }
         mp[arr[i]]++;   //Increment the count of the current element in the map
