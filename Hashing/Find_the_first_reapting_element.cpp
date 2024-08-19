@@ -7,6 +7,11 @@
     Output: 
             5
 
+        Time complixity           Space Com
+
+            O(N)                     O(N)
+        
+
 */
 
 #include <bits/stdc++.h>
