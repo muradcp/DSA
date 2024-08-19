@@ -7,6 +7,12 @@
             0 -1 2 -3 1
     Output:
             Yes
+
+                Time Com        Space Com
+    Naive:          O(n^2)           O(1)
+    Two Pointer:    O(nlogn)         O(1)
+    Binary Search:  O(nlogn)         O(1)
+    Hashing:        O(n)             O(n)
 */
 #include <bits/stdc++.h>
 #define nl '\n'
