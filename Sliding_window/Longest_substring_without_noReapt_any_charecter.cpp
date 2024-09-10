@@ -54,6 +54,30 @@ void Optimized_brute()
         rgt++;
     }
     cout << mxlen << nl;
+
+
+
+ /*
+
+        string s;
+        cin >> s;
+        int n = s.size(), ans = 0, lft = 0, rgt = 0;
+        map<char, int> hash;
+        while (rgt < n)
+        {
+            if (hash.count(s[rgt]) && hash[s[rgt]] >= lft)
+            {
+                lft = hash[s[rgt]] + 1;
+            }
+            ans = max(ans, rgt - lft + 1);
+            hash[s[rgt]] = rgt;
+            rgt++;
+        }
+        
+        cout << ans << nl;
+    */
+
+    
 }
 void solve()
 {
